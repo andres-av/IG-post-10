@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(28,29,33); 
+}
+/* Layout && Marging && Padding */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+.title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: white;
+}
+.names {
+    display: flex;
+    flex-direction: column;
+}
+.names h1, h2{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.names h1{
+    font-size: 18px;
+}
+.names h2 {
+    font-size: 14px;
+}
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 20px 20px 20px;
+    background-color: white;
+}
+.beachImg{
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.likes, .caption {
+    margin: 0 20px 20px;
+    background-color: white;
+}
+i, strong {
+    background-color: white;
+}
+.ellipsis, .bookmark {
+    padding-left: 390px;
+}
